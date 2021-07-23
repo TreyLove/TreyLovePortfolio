@@ -19,7 +19,7 @@ ul {
   display:flex;
   margin-top:30px;
   margin-right: 30px;
-  font-size:20px
+  font-size:20px;
 }
 li {
   list-style-type: none;
@@ -32,7 +32,7 @@ li {
   flex-wrap: wrap;
   flex-direction: row;
   width: 100%;
-  justify-content: space-around
+  justify-content: space-around;
 }
 .card {
   border-radius: 5px;
@@ -54,7 +54,7 @@ background: gray;
 padding:10px;
 }
 .pic{
-  width:425px
+  width:425px;
 }
 .footer {
   width: 100%;
@@ -63,4 +63,27 @@ padding:10px;
   display:flex;
   align-items:center;
   justify-content: center;
+}
+.aboutme{
+  height: 400px;
+  width: 40%;
+
+}
+
+.aboutCont{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.profPic{
+  width: 300px;
+  border-radius: 50px;
+  margin-bottom: 50px
+}
+.aboutMe{
+  background-color: lightgray;
+  width: 600px;
+  margin-bottom: 100px;
+  border-radius: 5px;
+  padding: 10px;
 }
