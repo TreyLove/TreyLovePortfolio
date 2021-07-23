@@ -18,12 +18,12 @@ export default function Header() {
                 <li>
                     <Link to="/about">About </Link>
                 </li>
-                <li>
+                {/* <li>
                     <Link to="/contact">Contact</Link>
                 </li>
                 <li>
                     <Link to="/projects">Projects </Link>
-                </li>
+                </li> */}
 
             </ul>
 

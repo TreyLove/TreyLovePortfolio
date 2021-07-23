@@ -1,4 +1,5 @@
-body {
+
+ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
@@ -11,7 +12,8 @@ body {
   justify-content: space-between;
 }
 .header {
-  margin-left: 20px;
+  margin-left: 10px;
+  font-size: 16px;
 }
 ul {
   display:flex;
@@ -23,5 +25,42 @@ li {
   list-style-type: none;
   margin-right: 30px;
   
+  
 }
-
+.cardCont {
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around
+}
+.card {
+  border-radius: 5px;
+  background-color: lightgray;
+  width: 450px;
+  height: 560px;
+  margin-bottom: 40px;
+  padding: 10px;
+  margin-left: 10px;
+  
+  
+} 
+.title{
+  font-size: 30px;
+  margin-bottom: 100px;
+}
+.cardText {
+background: gray;
+padding:10px;
+}
+.pic{
+  width:425px
+}
+.footer {
+  width: 100%;
+  background-color: lightgray;
+  height: 100px;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+}
